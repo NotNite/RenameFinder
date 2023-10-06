@@ -1,0 +1,3 @@
+[submodule "libs/VFXEditor"]
+	path = libs/VFXEditor
+	url = https://github.com/0ceal0t/Dalamud-VFXEditor.git

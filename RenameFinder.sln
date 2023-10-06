@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameFinder", "RenameFinder\RenameFinder.csproj", "{73E6D51A-85E6-4354-9184-8CAD0A8E88B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameFinder.PathDumper", "RenameFinder.PathDumper\RenameFinder.PathDumper.csproj", "{2E4FFB24-FB6D-4459-BB5B-F1E7007157A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{864A14E9-C9D1-4091-8E3A-5CA1711D6883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFXEditor", "libs\VFXEditor\VFXEditor\VFXEditor.csproj", "{D12B4B74-0274-488B-96BC-C4BAD37D386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtterGui", "libs\VFXEditor\OtterGui\OtterGui.csproj", "{3C3350ED-D674-49FE-848E-9EE4DA98014A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penumbra.String", "libs\VFXEditor\Penumbra.String\Penumbra.String.csproj", "{411914FD-D11B-4ACC-9A2A-008DF79DCE58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,26 @@ Global
 		{73E6D51A-85E6-4354-9184-8CAD0A8E88B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E6D51A-85E6-4354-9184-8CAD0A8E88B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73E6D51A-85E6-4354-9184-8CAD0A8E88B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4FFB24-FB6D-4459-BB5B-F1E7007157A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4FFB24-FB6D-4459-BB5B-F1E7007157A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4FFB24-FB6D-4459-BB5B-F1E7007157A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4FFB24-FB6D-4459-BB5B-F1E7007157A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12B4B74-0274-488B-96BC-C4BAD37D386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12B4B74-0274-488B-96BC-C4BAD37D386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12B4B74-0274-488B-96BC-C4BAD37D386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12B4B74-0274-488B-96BC-C4BAD37D386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3350ED-D674-49FE-848E-9EE4DA98014A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3350ED-D674-49FE-848E-9EE4DA98014A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3350ED-D674-49FE-848E-9EE4DA98014A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3350ED-D674-49FE-848E-9EE4DA98014A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411914FD-D11B-4ACC-9A2A-008DF79DCE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411914FD-D11B-4ACC-9A2A-008DF79DCE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411914FD-D11B-4ACC-9A2A-008DF79DCE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411914FD-D11B-4ACC-9A2A-008DF79DCE58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D12B4B74-0274-488B-96BC-C4BAD37D386D} = {864A14E9-C9D1-4091-8E3A-5CA1711D6883}
+		{3C3350ED-D674-49FE-848E-9EE4DA98014A} = {864A14E9-C9D1-4091-8E3A-5CA1711D6883}
+		{411914FD-D11B-4ACC-9A2A-008DF79DCE58} = {864A14E9-C9D1-4091-8E3A-5CA1711D6883}
 	EndGlobalSection
 EndGlobal
